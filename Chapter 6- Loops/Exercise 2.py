@@ -1,7 +1,7 @@
 # Exercise 2: Movie Ticket
 
 task = "How old are you?"
-task += "\nEnter 'quit' when you are done. "
+task += "\nEnter 'quit' when you are done. \n"
 
 while True:
     age = input(task)
