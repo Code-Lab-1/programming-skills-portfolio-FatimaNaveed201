@@ -1,14 +1,18 @@
-#Finding the largest number the user inputs
+#Reversing a list using function
 
-def maxnumber():
-  a=input()
-  b=input()
-  c=input()
+def reversing():
+  a=int(input())
+  b=int(input())
+  c=int(input())
+  d=int(input())
+  e=int(input())
 
-  if a>b and a>c:
-    print("The largest number is: " + a)
-  elif b>a and b>c:
-    print("The largest number is " + b)
-  else:
-    print("The largest number is " + c)
-maxnumber()
+  num = [a, b, c, d, e]
+  print("\nThe original sequence: ")
+  print(num)
+  
+  num.reverse()
+  print("\nThe reversed sequence: ")
+  print(num)
+
+reversing()
