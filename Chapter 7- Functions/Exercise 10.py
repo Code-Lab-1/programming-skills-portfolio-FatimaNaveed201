@@ -4,6 +4,6 @@ def addition() :
   x = int(input())
   y = int(input())
   sum = x+y
-  print(sum)
+  print(x, "+", y, "=", sum)
 
 addition()
